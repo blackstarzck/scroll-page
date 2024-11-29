@@ -1,11 +1,14 @@
 {
   "name": "threejs-study",
+  "homepage": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress",
-    "start": "webpack serve --progress"
+    "start": "webpack serve --progress",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
