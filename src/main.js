@@ -69,11 +69,11 @@ scene.add(floorMesh);
 
 const houses = [];
 
-houses.push(new House({	gltfLoader,	scene,	modelSrc: '/models/house.glb',	x: -5, z: 20, height: 2 }));
-houses.push(new House({	gltfLoader,	scene,	modelSrc: '/models/house.glb',	x: 7, z: 10, height: 2 }));
-houses.push(new House({	gltfLoader,	scene,	modelSrc: '/models/house.glb',	x: -10, z: 0, height: 2 }));
-houses.push(new House({	gltfLoader,	scene,	modelSrc: '/models/house.glb',	x: 10, z: -10, height: 2 }));
-houses.push(new House({	gltfLoader,	scene,	modelSrc: '/models/house.glb',	x: -5, z: -20, height: 2 }));
+houses.push(new House({	gltfLoader,	scene,	modelSrc: './models/house.glb',	x: -5, z: 20, height: 2 }));
+houses.push(new House({	gltfLoader,	scene,	modelSrc: './models/house.glb',	x: 7, z: 10, height: 2 }));
+houses.push(new House({	gltfLoader,	scene,	modelSrc: './models/house.glb',	x: -10, z: 0, height: 2 }));
+houses.push(new House({	gltfLoader,	scene,	modelSrc: './models/house.glb',	x: 10, z: -10, height: 2 }));
+houses.push(new House({	gltfLoader,	scene,	modelSrc: './models/house.glb',	x: -5, z: -20, height: 2 }));
 
 const axesHelper = new THREE.AxesHelper(3);
 scene.add(axesHelper);
